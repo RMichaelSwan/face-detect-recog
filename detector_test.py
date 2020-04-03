@@ -48,7 +48,7 @@ while True:
             # preprocess img acquired
             img = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)  # convert bgr to rgb
 
-            def Ultralight_Detect():
+            def Ultralight_Detect(img):
                 # extra ultralight required pre-processing
                 img = cv2.resize(img, (640, 480))
                 img_mean = np.array([127, 127, 127])
@@ -104,6 +104,7 @@ while True:
                     )
 
             Dlib_Detect()
+            #Ultralight_Detect(img)
             cv2.imshow("Video", frame)
 
         # Hit 'q' on the keyboard to quit!
