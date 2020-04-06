@@ -2,6 +2,14 @@
 
 Some experiments with face detection and recognition
 
+## Run Instructions
+
+Written for Python 3.
+
+1. Install requirements: `pip install -r requirements.txt`
+1. Test it! `python detector_test.py`
+
+
 ## Notes
 
 Hardware used: 8 cores, 9th generation Intel i7
