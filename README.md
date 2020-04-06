@@ -2,7 +2,7 @@
 
 Some experiments with face detection and recognition
 
-## Run Instructions
+## Face Detector Run Instructions
 
 Written for Python 3.
 
